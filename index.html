@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pure Monaco Editor</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/monaco-editor@0.45.0/min/vs/loader.js"></script>
+</head>
+<body>
+  <div class="editor-container">
+    <div class="editor-header">
+      <h2>Pure Monaco Editor</h2>
+      <div class="editor-controls">
+        <button id="font-size-btn" class="control-btn">Font Size: 16px</button>
+        <button id="line-numbers-btn" class="control-btn active">Line Numbers</button>
+        <button id="word-wrap-btn" class="control-btn active">Word Wrap</button>
+        <button id="theme-btn" class="control-btn">Pure Dark</button>
+      </div>
+    </div>
+    <div id="monaco-editor"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html> 
